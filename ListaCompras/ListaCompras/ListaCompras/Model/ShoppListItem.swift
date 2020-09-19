@@ -9,13 +9,17 @@ import Foundation
 
 class ShoppingListItem {
     
-    var product: Product
+    var productName: String
     var quatity: Int
     
-    init(product: Product, quatity: Int) {
-        self.product = product
+    init(productName: String, quatity: Int) {
+        self.productName = productName
         self.quatity = quatity
     }
     
-    
+    func setItemQuantity(qty: Int)
+    {
+        self.quatity = qty
+    }
+ 
 }

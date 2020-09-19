@@ -15,9 +15,9 @@
 		B07A7702251395EF000CC36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07A7700251395EF000CC36E /* LaunchScreen.storyboard */; };
 		B07A770D251395EF000CC36E /* ListaComprasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A770C251395EF000CC36E /* ListaComprasTests.swift */; };
 		B07A7718251395EF000CC36E /* ListaComprasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A7717251395EF000CC36E /* ListaComprasUITests.swift */; };
-		B07A77322513990E000CC36E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A77312513990E000CC36E /* Product.swift */; };
 		B07A773A25139B13000CC36E /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A773925139B13000CC36E /* ShopList.swift */; };
 		B07A773F25139BB1000CC36E /* ShoppListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A773E25139BB1000CC36E /* ShoppListItem.swift */; };
+		B07A77472513D697000CC36E /* VierControllerExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A77462513D697000CC36E /* VierControllerExtend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		B07A7713251395EF000CC36E /* ListaComprasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListaComprasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07A7717251395EF000CC36E /* ListaComprasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComprasUITests.swift; sourceTree = "<group>"; };
 		B07A7719251395EF000CC36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B07A77312513990E000CC36E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		B07A773925139B13000CC36E /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
 		B07A773E25139BB1000CC36E /* ShoppListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppListItem.swift; sourceTree = "<group>"; };
+		B07A77462513D697000CC36E /* VierControllerExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VierControllerExtend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +108,7 @@
 				B07A76F5251395ED000CC36E /* AppDelegate.swift */,
 				B07A76F7251395ED000CC36E /* SceneDelegate.swift */,
 				B07A76F9251395ED000CC36E /* ViewController.swift */,
+				B07A77462513D697000CC36E /* VierControllerExtend.swift */,
 				B07A772D25139771000CC36E /* Model */,
 				B07A76FB251395ED000CC36E /* Main.storyboard */,
 				B07A76FE251395EF000CC36E /* Assets.xcassets */,
@@ -138,7 +139,6 @@
 		B07A772D25139771000CC36E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B07A77312513990E000CC36E /* Product.swift */,
 				B07A773925139B13000CC36E /* ShopList.swift */,
 				B07A773E25139BB1000CC36E /* ShoppListItem.swift */,
 			);
@@ -276,9 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07A76FA251395ED000CC36E /* ViewController.swift in Sources */,
+				B07A77472513D697000CC36E /* VierControllerExtend.swift in Sources */,
 				B07A773F25139BB1000CC36E /* ShoppListItem.swift in Sources */,
 				B07A773A25139B13000CC36E /* ShopList.swift in Sources */,
-				B07A77322513990E000CC36E /* Product.swift in Sources */,
 				B07A76F6251395ED000CC36E /* AppDelegate.swift in Sources */,
 				B07A76F8251395ED000CC36E /* SceneDelegate.swift in Sources */,
 			);
