@@ -19,12 +19,22 @@
 		B0271010251918A20043010A /* MyOneViewModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B027100F251918A20043010A /* MyOneViewModal.storyboard */; };
 		B027101625191D3C0043010A /* MyOneViewPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B027101525191D3C0043010A /* MyOneViewPushedViewController.swift */; };
 		B027101A25191D5D0043010A /* MyOneViewPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B027101925191D5D0043010A /* MyOneViewPushed.storyboard */; };
-		B027101F2519222B0043010A /* MyViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B027101E2519222B0043010A /* MyViewTwoViewController.swift */; };
-		B02710222519223F0043010A /* MyViewTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02710212519223F0043010A /* MyViewTwo.storyboard */; };
+		B0271026251923B40043010A /* MyViewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0271025251923B40043010A /* MyViewTwoModalViewController.swift */; };
+		B0C0893325192D1F002E0D35 /* MySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0893225192D1F002E0D35 /* MySecondViewController.swift */; };
+		B0C0893725192D36002E0D35 /* MySecondView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0893625192D36002E0D35 /* MySecondView.storyboard */; };
+		B0C0893C2519F237002E0D35 /* MyViewTwoPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0893B2519F237002E0D35 /* MyViewTwoPushedViewController.swift */; };
+		B0C0894D2519F5B1002E0D35 /* MyViewTwoModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0894C2519F5B1002E0D35 /* MyViewTwoModal.storyboard */; };
+		B0C089502519F687002E0D35 /* MyViewTwoPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0894F2519F687002E0D35 /* MyViewTwoPushed.storyboard */; };
+		B0C08957251A006C002E0D35 /* MyViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C08956251A006C002E0D35 /* MyViewThreeViewController.swift */; };
+		B0C0895B251A0081002E0D35 /* MyViewThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0895A251A0081002E0D35 /* MyViewThree.storyboard */; };
+		B0C0895E251A022B002E0D35 /* MyViewThreeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0895D251A022B002E0D35 /* MyViewThreeModalViewController.swift */; };
+		B0C08961251A023E002E0D35 /* MyViewThreeModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C08960251A023E002E0D35 /* MyViewThreeModal.storyboard */; };
+		B0C08964251A0557002E0D35 /* ViewThreePuhsedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C08963251A0557002E0D35 /* ViewThreePuhsedViewController.swift */; };
+		B0C08967251A0569002E0D35 /* ViewThreePuhsed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C08966251A0569002E0D35 /* ViewThreePuhsed.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0270FE72518ECE70043010A /* TransicaoTelasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransicaoTelasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0270FE72518ECE70043010A /* TransicaoTelasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TransicaoTelasApp.app; path = "/Users/marcelosquarisi/Source/DigitalHouse/TransicaoTelas/TransicaoTelasApp/build/Debug-iphoneos/TransicaoTelasApp.app"; sourceTree = "<absolute>"; };
 		B0270FEA2518ECE70043010A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0270FEC2518ECE70043010A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B0270FEE2518ECE70043010A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +48,18 @@
 		B027100F251918A20043010A /* MyOneViewModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyOneViewModal.storyboard; sourceTree = "<group>"; };
 		B027101525191D3C0043010A /* MyOneViewPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOneViewPushedViewController.swift; sourceTree = "<group>"; };
 		B027101925191D5D0043010A /* MyOneViewPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyOneViewPushed.storyboard; sourceTree = "<group>"; };
-		B027101E2519222B0043010A /* MyViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoViewController.swift; sourceTree = "<group>"; };
-		B02710212519223F0043010A /* MyViewTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwo.storyboard; sourceTree = "<group>"; };
+		B0271025251923B40043010A /* MyViewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoModalViewController.swift; sourceTree = "<group>"; };
+		B0C0893225192D1F002E0D35 /* MySecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondViewController.swift; sourceTree = "<group>"; };
+		B0C0893625192D36002E0D35 /* MySecondView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MySecondView.storyboard; sourceTree = "<group>"; };
+		B0C0893B2519F237002E0D35 /* MyViewTwoPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoPushedViewController.swift; sourceTree = "<group>"; };
+		B0C0894C2519F5B1002E0D35 /* MyViewTwoModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModal.storyboard; sourceTree = "<group>"; };
+		B0C0894F2519F687002E0D35 /* MyViewTwoPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoPushed.storyboard; sourceTree = "<group>"; };
+		B0C08956251A006C002E0D35 /* MyViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeViewController.swift; sourceTree = "<group>"; };
+		B0C0895A251A0081002E0D35 /* MyViewThree.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThree.storyboard; sourceTree = "<group>"; };
+		B0C0895D251A022B002E0D35 /* MyViewThreeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeModalViewController.swift; sourceTree = "<group>"; };
+		B0C08960251A023E002E0D35 /* MyViewThreeModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeModal.storyboard; sourceTree = "<group>"; };
+		B0C08963251A0557002E0D35 /* ViewThreePuhsedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThreePuhsedViewController.swift; sourceTree = "<group>"; };
+		B0C08966251A0569002E0D35 /* ViewThreePuhsed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewThreePuhsed.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,25 +77,21 @@
 			isa = PBXGroup;
 			children = (
 				B0270FE92518ECE70043010A /* TransicaoTelasApp */,
-				B0270FE82518ECE70043010A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B0270FE82518ECE70043010A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0270FE72518ECE70043010A /* TransicaoTelasApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B0270FE92518ECE70043010A /* TransicaoTelasApp */ = {
 			isa = PBXGroup;
 			children = (
-				B027101D251922120043010A /* MyViewTwo */,
-				B027101425191CFD0043010A /* MyOneViewPushed */,
-				B027100B2519186B0043010A /* MyOneViewModal */,
 				B0270FFF2518ECF60043010A /* MyViewOne */,
+				B027100B2519186B0043010A /* MyOneViewModal */,
+				B027101425191CFD0043010A /* MyOneViewPushed */,
+				B0C0893125192CF9002E0D35 /* MySecondView */,
+				B02710242519238D0043010A /* MyViewTwoModal */,
+				B0C0893A2519F214002E0D35 /* MyViewTwoPushed */,
+				B0C089532519FFBF002E0D35 /* MyViewThree */,
+				B0C089542519FFE8002E0D35 /* MyViewThreeModal */,
+				B0C08955251A002E002E0D35 /* MyViewThreePushed */,
 				B0270FEA2518ECE70043010A /* AppDelegate.swift */,
 				B0270FEC2518ECE70043010A /* SceneDelegate.swift */,
 				B0270FEE2518ECE70043010A /* ViewController.swift */,
@@ -114,13 +130,58 @@
 			path = MyOneViewPushed;
 			sourceTree = "<group>";
 		};
-		B027101D251922120043010A /* MyViewTwo */ = {
+		B02710242519238D0043010A /* MyViewTwoModal */ = {
 			isa = PBXGroup;
 			children = (
-				B027101E2519222B0043010A /* MyViewTwoViewController.swift */,
-				B02710212519223F0043010A /* MyViewTwo.storyboard */,
+				B0271025251923B40043010A /* MyViewTwoModalViewController.swift */,
+				B0C0894C2519F5B1002E0D35 /* MyViewTwoModal.storyboard */,
 			);
-			path = MyViewTwo;
+			path = MyViewTwoModal;
+			sourceTree = "<group>";
+		};
+		B0C0893125192CF9002E0D35 /* MySecondView */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0893225192D1F002E0D35 /* MySecondViewController.swift */,
+				B0C0893625192D36002E0D35 /* MySecondView.storyboard */,
+			);
+			path = MySecondView;
+			sourceTree = "<group>";
+		};
+		B0C0893A2519F214002E0D35 /* MyViewTwoPushed */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0893B2519F237002E0D35 /* MyViewTwoPushedViewController.swift */,
+				B0C0894F2519F687002E0D35 /* MyViewTwoPushed.storyboard */,
+			);
+			path = MyViewTwoPushed;
+			sourceTree = "<group>";
+		};
+		B0C089532519FFBF002E0D35 /* MyViewThree */ = {
+			isa = PBXGroup;
+			children = (
+				B0C08956251A006C002E0D35 /* MyViewThreeViewController.swift */,
+				B0C0895A251A0081002E0D35 /* MyViewThree.storyboard */,
+			);
+			path = MyViewThree;
+			sourceTree = "<group>";
+		};
+		B0C089542519FFE8002E0D35 /* MyViewThreeModal */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0895D251A022B002E0D35 /* MyViewThreeModalViewController.swift */,
+				B0C08960251A023E002E0D35 /* MyViewThreeModal.storyboard */,
+			);
+			path = MyViewThreeModal;
+			sourceTree = "<group>";
+		};
+		B0C08955251A002E002E0D35 /* MyViewThreePushed */ = {
+			isa = PBXGroup;
+			children = (
+				B0C08963251A0557002E0D35 /* ViewThreePuhsedViewController.swift */,
+				B0C08966251A0569002E0D35 /* ViewThreePuhsed.storyboard */,
+			);
+			path = MyViewThreePushed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +227,7 @@
 				Base,
 			);
 			mainGroup = B0270FDE2518ECE70043010A;
-			productRefGroup = B0270FE82518ECE70043010A /* Products */;
+			productRefGroup = B0270FDE2518ECE70043010A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -180,10 +241,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C0894D2519F5B1002E0D35 /* MyViewTwoModal.storyboard in Resources */,
+				B0C08967251A0569002E0D35 /* ViewThreePuhsed.storyboard in Resources */,
 				B0270FF72518ECEA0043010A /* LaunchScreen.storyboard in Resources */,
-				B02710222519223F0043010A /* MyViewTwo.storyboard in Resources */,
 				B027101A25191D5D0043010A /* MyOneViewPushed.storyboard in Resources */,
 				B0270FF42518ECEA0043010A /* Assets.xcassets in Resources */,
+				B0C089502519F687002E0D35 /* MyViewTwoPushed.storyboard in Resources */,
+				B0C0893725192D36002E0D35 /* MySecondView.storyboard in Resources */,
+				B0C0895B251A0081002E0D35 /* MyViewThree.storyboard in Resources */,
+				B0C08961251A023E002E0D35 /* MyViewThreeModal.storyboard in Resources */,
 				B02710092518F49E0043010A /* MyViewOne.storyboard in Resources */,
 				B0270FF22518ECE70043010A /* Main.storyboard in Resources */,
 				B0271010251918A20043010A /* MyOneViewModal.storyboard in Resources */,
@@ -197,11 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C0893325192D1F002E0D35 /* MySecondViewController.swift in Sources */,
 				B027100D2519188E0043010A /* MyOneViewModalViewController.swift in Sources */,
 				B0270FEF2518ECE70043010A /* ViewController.swift in Sources */,
 				B0270FEB2518ECE70043010A /* AppDelegate.swift in Sources */,
 				B02710012518ED240043010A /* MyViewOneViewController.swift in Sources */,
-				B027101F2519222B0043010A /* MyViewTwoViewController.swift in Sources */,
+				B0271026251923B40043010A /* MyViewTwoModalViewController.swift in Sources */,
+				B0C08957251A006C002E0D35 /* MyViewThreeViewController.swift in Sources */,
+				B0C0893C2519F237002E0D35 /* MyViewTwoPushedViewController.swift in Sources */,
+				B0C0895E251A022B002E0D35 /* MyViewThreeModalViewController.swift in Sources */,
+				B0C08964251A0557002E0D35 /* ViewThreePuhsedViewController.swift in Sources */,
 				B0270FED2518ECE70043010A /* SceneDelegate.swift in Sources */,
 				B027101625191D3C0043010A /* MyOneViewPushedViewController.swift in Sources */,
 			);

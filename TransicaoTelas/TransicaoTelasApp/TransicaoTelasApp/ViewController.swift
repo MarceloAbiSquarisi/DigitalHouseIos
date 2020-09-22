@@ -24,6 +24,23 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func actionMyViewTwo(_ sender: Any) {
+        
+        if let viewTwo = UIStoryboard(name: "MySecondView", bundle: nil).instantiateInitialViewController() as? MySecondViewController{
+            
+            navigationController?.pushViewController(viewTwo, animated: true)
+        }
+    }
+    
+    
+    @IBAction func actionViewThree(_ sender: Any) {
+        
+        if let viewThree = UIStoryboard(name: "MyViewThree", bundle: nil).instantiateInitialViewController() as? MyViewThreeViewController{
+            navigationController?.pushViewController(viewThree, animated: true)
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Main"
