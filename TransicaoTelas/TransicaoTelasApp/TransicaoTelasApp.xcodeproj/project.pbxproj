@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0270FEB2518ECE70043010A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0270FEA2518ECE70043010A /* AppDelegate.swift */; };
+		B0270FED2518ECE70043010A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0270FEC2518ECE70043010A /* SceneDelegate.swift */; };
+		B0270FEF2518ECE70043010A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0270FEE2518ECE70043010A /* ViewController.swift */; };
+		B0270FF22518ECE70043010A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0270FF02518ECE70043010A /* Main.storyboard */; };
+		B0270FF42518ECEA0043010A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0270FF32518ECEA0043010A /* Assets.xcassets */; };
+		B0270FF72518ECEA0043010A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0270FF52518ECEA0043010A /* LaunchScreen.storyboard */; };
+		B02710012518ED240043010A /* MyViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02710002518ED240043010A /* MyViewOneViewController.swift */; };
+		B02710092518F49E0043010A /* MyViewOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02710082518F49E0043010A /* MyViewOne.storyboard */; };
+		B027100D2519188E0043010A /* MyOneViewModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B027100C2519188E0043010A /* MyOneViewModalViewController.swift */; };
+		B0271010251918A20043010A /* MyOneViewModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B027100F251918A20043010A /* MyOneViewModal.storyboard */; };
+		B027101625191D3C0043010A /* MyOneViewPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B027101525191D3C0043010A /* MyOneViewPushedViewController.swift */; };
+		B027101A25191D5D0043010A /* MyOneViewPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B027101925191D5D0043010A /* MyOneViewPushed.storyboard */; };
+		B0271026251923B40043010A /* MyViewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0271025251923B40043010A /* MyViewTwoModalViewController.swift */; };
+		B0C0893325192D1F002E0D35 /* MySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0893225192D1F002E0D35 /* MySecondViewController.swift */; };
+		B0C0893725192D36002E0D35 /* MySecondView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0893625192D36002E0D35 /* MySecondView.storyboard */; };
+		B0C0893C2519F237002E0D35 /* MyViewTwoPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0893B2519F237002E0D35 /* MyViewTwoPushedViewController.swift */; };
+		B0C0894D2519F5B1002E0D35 /* MyViewTwoModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0894C2519F5B1002E0D35 /* MyViewTwoModal.storyboard */; };
+		B0C089502519F687002E0D35 /* MyViewTwoPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0894F2519F687002E0D35 /* MyViewTwoPushed.storyboard */; };
+		B0C08957251A006C002E0D35 /* MyViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C08956251A006C002E0D35 /* MyViewThreeViewController.swift */; };
+		B0C0895B251A0081002E0D35 /* MyViewThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C0895A251A0081002E0D35 /* MyViewThree.storyboard */; };
+		B0C0895E251A022B002E0D35 /* MyViewThreeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0895D251A022B002E0D35 /* MyViewThreeModalViewController.swift */; };
+		B0C08961251A023E002E0D35 /* MyViewThreeModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C08960251A023E002E0D35 /* MyViewThreeModal.storyboard */; };
+		B0C08964251A0557002E0D35 /* ViewThreePuhsedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C08963251A0557002E0D35 /* ViewThreePuhsedViewController.swift */; };
+		B0C08967251A0569002E0D35 /* ViewThreePuhsed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C08966251A0569002E0D35 /* ViewThreePuhsed.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0270FE72518ECE70043010A /* TransicaoTelasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TransicaoTelasApp.app; path = "/Users/marcelosquarisi/Source/DigitalHouse/TransicaoTelas/TransicaoTelasApp/build/Debug-iphoneos/TransicaoTelasApp.app"; sourceTree = "<absolute>"; };
+		B0270FEA2518ECE70043010A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0270FEC2518ECE70043010A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0270FEE2518ECE70043010A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0270FF12518ECE70043010A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0270FF32518ECEA0043010A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0270FF62518ECEA0043010A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0270FF82518ECEA0043010A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02710002518ED240043010A /* MyViewOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneViewController.swift; sourceTree = "<group>"; };
+		B02710082518F49E0043010A /* MyViewOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOne.storyboard; sourceTree = "<group>"; };
+		B027100C2519188E0043010A /* MyOneViewModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOneViewModalViewController.swift; sourceTree = "<group>"; };
+		B027100F251918A20043010A /* MyOneViewModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyOneViewModal.storyboard; sourceTree = "<group>"; };
+		B027101525191D3C0043010A /* MyOneViewPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOneViewPushedViewController.swift; sourceTree = "<group>"; };
+		B027101925191D5D0043010A /* MyOneViewPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyOneViewPushed.storyboard; sourceTree = "<group>"; };
+		B0271025251923B40043010A /* MyViewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoModalViewController.swift; sourceTree = "<group>"; };
+		B0C0893225192D1F002E0D35 /* MySecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondViewController.swift; sourceTree = "<group>"; };
+		B0C0893625192D36002E0D35 /* MySecondView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MySecondView.storyboard; sourceTree = "<group>"; };
+		B0C0893B2519F237002E0D35 /* MyViewTwoPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoPushedViewController.swift; sourceTree = "<group>"; };
+		B0C0894C2519F5B1002E0D35 /* MyViewTwoModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModal.storyboard; sourceTree = "<group>"; };
+		B0C0894F2519F687002E0D35 /* MyViewTwoPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoPushed.storyboard; sourceTree = "<group>"; };
+		B0C08956251A006C002E0D35 /* MyViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeViewController.swift; sourceTree = "<group>"; };
+		B0C0895A251A0081002E0D35 /* MyViewThree.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThree.storyboard; sourceTree = "<group>"; };
+		B0C0895D251A022B002E0D35 /* MyViewThreeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeModalViewController.swift; sourceTree = "<group>"; };
+		B0C08960251A023E002E0D35 /* MyViewThreeModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeModal.storyboard; sourceTree = "<group>"; };
+		B0C08963251A0557002E0D35 /* ViewThreePuhsedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThreePuhsedViewController.swift; sourceTree = "<group>"; };
+		B0C08966251A0569002E0D35 /* ViewThreePuhsed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewThreePuhsed.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0270FE42518ECE70043010A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0270FDE2518ECE70043010A = {
+			isa = PBXGroup;
+			children = (
+				B0270FE92518ECE70043010A /* TransicaoTelasApp */,
+			);
+			sourceTree = "<group>";
+		};
+		B0270FE92518ECE70043010A /* TransicaoTelasApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0270FFF2518ECF60043010A /* MyViewOne */,
+				B027100B2519186B0043010A /* MyOneViewModal */,
+				B027101425191CFD0043010A /* MyOneViewPushed */,
+				B0C0893125192CF9002E0D35 /* MySecondView */,
+				B02710242519238D0043010A /* MyViewTwoModal */,
+				B0C0893A2519F214002E0D35 /* MyViewTwoPushed */,
+				B0C089532519FFBF002E0D35 /* MyViewThree */,
+				B0C089542519FFE8002E0D35 /* MyViewThreeModal */,
+				B0C08955251A002E002E0D35 /* MyViewThreePushed */,
+				B0270FEA2518ECE70043010A /* AppDelegate.swift */,
+				B0270FEC2518ECE70043010A /* SceneDelegate.swift */,
+				B0270FEE2518ECE70043010A /* ViewController.swift */,
+				B0270FF02518ECE70043010A /* Main.storyboard */,
+				B0270FF32518ECEA0043010A /* Assets.xcassets */,
+				B0270FF52518ECEA0043010A /* LaunchScreen.storyboard */,
+				B0270FF82518ECEA0043010A /* Info.plist */,
+			);
+			path = TransicaoTelasApp;
+			sourceTree = "<group>";
+		};
+		B0270FFF2518ECF60043010A /* MyViewOne */ = {
+			isa = PBXGroup;
+			children = (
+				B02710002518ED240043010A /* MyViewOneViewController.swift */,
+				B02710082518F49E0043010A /* MyViewOne.storyboard */,
+			);
+			path = MyViewOne;
+			sourceTree = "<group>";
+		};
+		B027100B2519186B0043010A /* MyOneViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				B027100C2519188E0043010A /* MyOneViewModalViewController.swift */,
+				B027100F251918A20043010A /* MyOneViewModal.storyboard */,
+			);
+			path = MyOneViewModal;
+			sourceTree = "<group>";
+		};
+		B027101425191CFD0043010A /* MyOneViewPushed */ = {
+			isa = PBXGroup;
+			children = (
+				B027101525191D3C0043010A /* MyOneViewPushedViewController.swift */,
+				B027101925191D5D0043010A /* MyOneViewPushed.storyboard */,
+			);
+			path = MyOneViewPushed;
+			sourceTree = "<group>";
+		};
+		B02710242519238D0043010A /* MyViewTwoModal */ = {
+			isa = PBXGroup;
+			children = (
+				B0271025251923B40043010A /* MyViewTwoModalViewController.swift */,
+				B0C0894C2519F5B1002E0D35 /* MyViewTwoModal.storyboard */,
+			);
+			path = MyViewTwoModal;
+			sourceTree = "<group>";
+		};
+		B0C0893125192CF9002E0D35 /* MySecondView */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0893225192D1F002E0D35 /* MySecondViewController.swift */,
+				B0C0893625192D36002E0D35 /* MySecondView.storyboard */,
+			);
+			path = MySecondView;
+			sourceTree = "<group>";
+		};
+		B0C0893A2519F214002E0D35 /* MyViewTwoPushed */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0893B2519F237002E0D35 /* MyViewTwoPushedViewController.swift */,
+				B0C0894F2519F687002E0D35 /* MyViewTwoPushed.storyboard */,
+			);
+			path = MyViewTwoPushed;
+			sourceTree = "<group>";
+		};
+		B0C089532519FFBF002E0D35 /* MyViewThree */ = {
+			isa = PBXGroup;
+			children = (
+				B0C08956251A006C002E0D35 /* MyViewThreeViewController.swift */,
+				B0C0895A251A0081002E0D35 /* MyViewThree.storyboard */,
+			);
+			path = MyViewThree;
+			sourceTree = "<group>";
+		};
+		B0C089542519FFE8002E0D35 /* MyViewThreeModal */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0895D251A022B002E0D35 /* MyViewThreeModalViewController.swift */,
+				B0C08960251A023E002E0D35 /* MyViewThreeModal.storyboard */,
+			);
+			path = MyViewThreeModal;
+			sourceTree = "<group>";
+		};
+		B0C08955251A002E002E0D35 /* MyViewThreePushed */ = {
+			isa = PBXGroup;
+			children = (
+				B0C08963251A0557002E0D35 /* ViewThreePuhsedViewController.swift */,
+				B0C08966251A0569002E0D35 /* ViewThreePuhsed.storyboard */,
+			);
+			path = MyViewThreePushed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0270FE62518ECE70043010A /* TransicaoTelasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0270FFB2518ECEA0043010A /* Build configuration list for PBXNativeTarget "TransicaoTelasApp" */;
+			buildPhases = (
+				B0270FE32518ECE70043010A /* Sources */,
+				B0270FE42518ECE70043010A /* Frameworks */,
+				B0270FE52518ECE70043010A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransicaoTelasApp;
+			productName = TransicaoTelasApp;
+			productReference = B0270FE72518ECE70043010A /* TransicaoTelasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0270FDF2518ECE70043010A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B0270FE62518ECE70043010A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = B0270FE22518ECE70043010A /* Build configuration list for PBXProject "TransicaoTelasApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0270FDE2518ECE70043010A;
+			productRefGroup = B0270FDE2518ECE70043010A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0270FE62518ECE70043010A /* TransicaoTelasApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0270FE52518ECE70043010A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C0894D2519F5B1002E0D35 /* MyViewTwoModal.storyboard in Resources */,
+				B0C08967251A0569002E0D35 /* ViewThreePuhsed.storyboard in Resources */,
+				B0270FF72518ECEA0043010A /* LaunchScreen.storyboard in Resources */,
+				B027101A25191D5D0043010A /* MyOneViewPushed.storyboard in Resources */,
+				B0270FF42518ECEA0043010A /* Assets.xcassets in Resources */,
+				B0C089502519F687002E0D35 /* MyViewTwoPushed.storyboard in Resources */,
+				B0C0893725192D36002E0D35 /* MySecondView.storyboard in Resources */,
+				B0C0895B251A0081002E0D35 /* MyViewThree.storyboard in Resources */,
+				B0C08961251A023E002E0D35 /* MyViewThreeModal.storyboard in Resources */,
+				B02710092518F49E0043010A /* MyViewOne.storyboard in Resources */,
+				B0270FF22518ECE70043010A /* Main.storyboard in Resources */,
+				B0271010251918A20043010A /* MyOneViewModal.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0270FE32518ECE70043010A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C0893325192D1F002E0D35 /* MySecondViewController.swift in Sources */,
+				B027100D2519188E0043010A /* MyOneViewModalViewController.swift in Sources */,
+				B0270FEF2518ECE70043010A /* ViewController.swift in Sources */,
+				B0270FEB2518ECE70043010A /* AppDelegate.swift in Sources */,
+				B02710012518ED240043010A /* MyViewOneViewController.swift in Sources */,
+				B0271026251923B40043010A /* MyViewTwoModalViewController.swift in Sources */,
+				B0C08957251A006C002E0D35 /* MyViewThreeViewController.swift in Sources */,
+				B0C0893C2519F237002E0D35 /* MyViewTwoPushedViewController.swift in Sources */,
+				B0C0895E251A022B002E0D35 /* MyViewThreeModalViewController.swift in Sources */,
+				B0C08964251A0557002E0D35 /* ViewThreePuhsedViewController.swift in Sources */,
+				B0270FED2518ECE70043010A /* SceneDelegate.swift in Sources */,
+				B027101625191D3C0043010A /* MyOneViewPushedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0270FF02518ECE70043010A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0270FF12518ECE70043010A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0270FF52518ECEA0043010A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0270FF62518ECEA0043010A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0270FF92518ECEA0043010A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0270FFA2518ECEA0043010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0270FFC2518ECEA0043010A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTelasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macs.com.TransicaoTelasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0270FFD2518ECEA0043010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTelasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macs.com.TransicaoTelasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0270FE22518ECE70043010A /* Build configuration list for PBXProject "TransicaoTelasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0270FF92518ECEA0043010A /* Debug */,
+				B0270FFA2518ECEA0043010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0270FFB2518ECEA0043010A /* Build configuration list for PBXNativeTarget "TransicaoTelasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0270FFC2518ECEA0043010A /* Debug */,
+				B0270FFD2518ECEA0043010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0270FDF2518ECE70043010A /* Project object */;
+}

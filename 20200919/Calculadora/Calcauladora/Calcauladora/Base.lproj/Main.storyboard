@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calcauladora" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agq-Pp-Wzf">
+                                <rect key="frame" x="20" y="56" width="374" height="110"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivP-Ym-LjJ" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="20" y="676" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8EZ-kT-I3w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S92-ta-hmH" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="20" y="763" width="164" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6xL-dY-qd3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6x-1z-sNF" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="117" y="676" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKA-OZ-FRn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiU-AY-wUH" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="203" y="676" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZg-fH-veW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atf-Qn-cME" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="303" y="676" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dil-Uc-JCW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-Ge-vfJ" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="303" y="763" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgq-SC-EUX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roY-95-W7C" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="20" y="580" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmg-T4-H9r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctF-Cd-OQi" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="117" y="580" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rm-xS-Sc7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gx-tZ-R6c" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="203" y="580" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MUf-pl-Atw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG2-7w-MPr" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="303" y="580" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d3E-ZA-wsl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bw-Ka-kKE" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="20" y="479" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoV-xH-baX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-SV-kqD" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="117" y="479" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DKt-V1-0Ht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqv-cj-lJe" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="203" y="479" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S2n-Av-vbz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBS-NA-SMg" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="303" y="479" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uRL-vT-SrK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpK-8C-c03" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="303" y="374" width="78" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4s-ZE-Lkh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="agq-Pp-Wzf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4Fd-Vv-HJq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="agq-Pp-Wzf" secondAttribute="bottom" constant="696" id="63b-a7-lqA"/>
+                            <constraint firstItem="agq-Pp-Wzf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XsM-I9-9M2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ResultLabel" destination="agq-Pp-Wzf" id="4C7-Xd-Uqz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-197.10144927536234" y="123.88392857142857"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="1Gx-tZ-R6c">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="4bw-Ka-kKE">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="B4x-SV-kqD">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="FpK-8C-c03">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="H6x-1z-sNF">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="Kqv-cj-lJe">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="PG2-7w-MPr">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="S92-ta-hmH">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="atf-Qn-cME">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="ctF-Cd-OQi">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="dBS-NA-SMg">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="f3g-Ge-vfJ">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="hiU-AY-wUH">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="ivP-Ym-LjJ">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="roY-95-W7C">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
