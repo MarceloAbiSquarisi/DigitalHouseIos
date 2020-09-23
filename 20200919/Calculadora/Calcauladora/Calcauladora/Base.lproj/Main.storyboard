@@ -31,26 +31,26 @@
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8EZ-kT-I3w"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S92-ta-hmH" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S92-ta-hmH" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="20" y="763" width="164" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6xL-dY-qd3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6x-1z-sNF" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
-                                <rect key="frame" x="117" y="676" width="78" height="79"/>
+                                <rect key="frame" x="117" y="675" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKA-OZ-FRn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiU-AY-wUH" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiU-AY-wUH" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="203" y="676" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZg-fH-veW"/>
                                 </connections>
@@ -63,84 +63,92 @@
                                     <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dil-Uc-JCW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-Ge-vfJ" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-Ge-vfJ" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="303" y="763" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="="/>
                                 <connections>
                                     <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgq-SC-EUX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roY-95-W7C" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roY-95-W7C" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="20" y="580" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" title="4"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmg-T4-H9r"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctF-Cd-OQi" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctF-Cd-OQi" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="117" y="580" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rm-xS-Sc7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gx-tZ-R6c" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gx-tZ-R6c" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="203" y="580" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="6"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MUf-pl-Atw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG2-7w-MPr" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG2-7w-MPr" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="303" y="580" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d3E-ZA-wsl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bw-Ka-kKE" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bw-Ka-kKE" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="20" y="479" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" title="7"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoV-xH-baX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-SV-kqD" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-SV-kqD" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="117" y="479" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DKt-V1-0Ht"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqv-cj-lJe" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqv-cj-lJe" customClass="NumericButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="203" y="479" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="NumericClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S2n-Av-vbz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBS-NA-SMg" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBS-NA-SMg" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="303" y="479" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="x"/>
                                 <connections>
                                     <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uRL-vT-SrK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpK-8C-c03" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpK-8C-c03" customClass="CalcButton" customModule="Calcauladora" customModuleProvider="target">
                                 <rect key="frame" x="303" y="374" width="78" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="/"/>
                                 <connections>
                                     <action selector="OperationClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4s-ZE-Lkh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plp-EV-h4P" customClass="FunctionButton" customModule="Calcauladora" customModuleProvider="target">
+                                <rect key="frame" x="22" y="385" width="74" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AC"/>
+                                <connections>
+                                    <action selector="actionAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JiQ-Xy-Yzn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -158,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-197.10144927536234" y="123.88392857142857"/>
+            <point key="canvasLocation" x="347.82608695652175" y="30.803571428571427"/>
         </scene>
     </scenes>
     <designables>
@@ -202,6 +210,9 @@
             <size key="intrinsicContentSize" width="30" height="30"/>
         </designable>
         <designable name="ivP-Ym-LjJ">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="plp-EV-h4P">
             <size key="intrinsicContentSize" width="30" height="30"/>
         </designable>
         <designable name="roY-95-W7C">

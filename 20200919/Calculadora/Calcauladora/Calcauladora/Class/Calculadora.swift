@@ -21,6 +21,11 @@ class Calculadora {
     func setCurrentOperation (operation: operationsEnum){
         currentOperation = operation
     }
+    
+    func setAc(){
+        resultado = 0
+        currentOperation = .igual
+    }
   
         
     // MARK: Getters
@@ -75,42 +80,31 @@ class Calculadora {
         default:
             break
         }
+        currentOperation = .igual
     }
     
     
         
     private func Somar (number: Double) {
-        if currentOperation == .igual {
-            resultado = resultado + number
-            return
-        }
+       
         currentOperation = .soma
         resultado = resultado + number
     }
     
     private func Multiplicar (number: Double) {
-        if currentOperation == .igual {
-            resultado = resultado * number
-            return
-        }
+       
         currentOperation = .multiplicaco
         resultado = resultado * number
     }
     private func Subtrair (number: Double) {
-        if currentOperation == .igual {
-            resultado = resultado - number
-            return
-        }
+       
         currentOperation = .subtracao
         resultado = resultado - number
     }
     
     
     private func Divisao (number: Double) {
-        if currentOperation == .igual {
-            resultado = resultado / number
-            return
-        }
+       
         currentOperation = .soma
         resultado = resultado / number
     }
