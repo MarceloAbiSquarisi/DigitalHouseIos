@@ -38,7 +38,7 @@ class ViewController: UIViewController {
 
     
     func navegatePush (view: String){
-        if let destinationView = UIStoryboard(name: view, bundle: nil).instantiateInitialViewController()  {
+        if let destinationView = UIStoryboard(name: view, bundle: nil).instantiateInitialViewController() as? ViewOneViewController {
             
             navigationController?.pushViewController(destinationView, animated: true)
             
