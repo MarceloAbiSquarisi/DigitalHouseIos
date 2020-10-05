@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8de2848-2628-473a-a458-05620e0cf980" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Car/Car.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Car/Car.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Car/CarDetailViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Car/CarViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Carro.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TableViewExercicio002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/TableViewExercicio002.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Animal/Animal.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Animal/Animal.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Animal/AnimalCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Animal/AnimalDetailewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableViewExercicio002/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/.idea/Exercicio_TableView_001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/Exercicio_TableView_001.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/Pessoa.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/Pessoa.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/PessoaViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/PessoaViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20201005_LigarActions/20201005_LigarActions/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20200919/Calculadora/Calcauladora/Calcauladora.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../20200919/Calculadora/Calcauladora/Calcauladora.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TableView/TableView.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../TableView/TableView.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TransicaoTelas/TransicaoTelasApp/TransicaoTelasApp.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../TransicaoTelas/TransicaoTelasApp/TransicaoTelasApp.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_A6090DA5-C92D-4440-9C66-1E602433EB91" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iTCycwLvpm7L4yuq1Fmo0hkjq1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="TableViewExercicio002" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TableViewExercicio002" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TableViewExercicio002" TARGET_NAME="TableViewExercicio002" CONFIG_NAME="Debug" SCHEME_NAME="TableViewExercicio002" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="TableViewExercicio002" RUN_TARGET_NAME="TableViewExercicio002" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8de2848-2628-473a-a458-05620e0cf980" name="Default Changelist" comment="" />
+      <created>1601922450792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601922450792</updated>
+      <workItem from="1601922451859" duration="1198000" />
+      <workItem from="1601928301965" duration="1495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1145" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1601922647785">
+      <screen x="0" y="23" width="2560" height="977" />
+    </state>
+    <state x="1145" y="234" key="#com.intellij.ide.util.MemberChooser/0.23.2560.977@0.23.2560.977" timestamp="1601922647785" />
+  </component>
+</project>
