@@ -9,10 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    enum ViewSelectedOption {
-        static let Programador = 0
-        static let Pessoa = 1
-    }
 
     
     override func viewDidLoad() {
