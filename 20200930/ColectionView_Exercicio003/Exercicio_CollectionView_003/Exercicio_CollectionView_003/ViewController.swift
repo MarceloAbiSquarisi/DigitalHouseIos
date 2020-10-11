@@ -22,9 +22,16 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDelegate
 {
+    func collectionView(_ collectionView: UICollectionView, canEditItemAt indexPath: IndexPath) -> Bool {
+        return true}
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        <#code#>
+    }
     
 }
+
+
 
 extension ViewController: UICollectionViewDataSource
 {

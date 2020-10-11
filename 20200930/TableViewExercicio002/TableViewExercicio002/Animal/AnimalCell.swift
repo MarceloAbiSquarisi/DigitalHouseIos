@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AnimalCell: UITableViewCell {
+class AnimalCell: UICollectionViewCell {
 
     
     @IBOutlet weak var labelName: UILabel?

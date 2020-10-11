@@ -17,6 +17,12 @@
 		B0A42BD7252B86D300B13A8A /* PessoaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A42BD6252B86D300B13A8A /* PessoaViewCell.swift */; };
 		B0A42BE1252B954700B13A8A /* PessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A42BE0252B954700B13A8A /* PessoaViewController.swift */; };
 		B0A42BE4252B956B00B13A8A /* Pessoa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A42BE3252B956B00B13A8A /* Pessoa.storyboard */; };
+		EF5E7050EEB45EAFCD76EDDD /* Pesso3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7294C259D7C7AD4EE22D /* Pesso3.swift */; };
+		EF5E7145BB258C8AEABD71E6 /* Pessoa2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7017A830A96D8A1DCB5E /* Pessoa2.swift */; };
+		EF5E7778C078721C6556AB52 /* PessoaVViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7591CA103BDDA85B40AA /* PessoaVViewConroller.swift */; };
+		EF5E7A9993C19441C8D13019 /* Pessoa67.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7140376C63AB452B3FB1 /* Pessoa67.swift */; };
+		EF5E7B2ADF609737ADFFD0B9 /* Pessoa4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7E5CB3A6C61A24B96D76 /* Pessoa4.swift */; };
+		EF5E7CB869EC066D71256B57 /* Pesso1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E71C0C0791CA7255570CB /* Pesso1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		B0A42BD6252B86D300B13A8A /* PessoaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaViewCell.swift; sourceTree = "<group>"; };
 		B0A42BE0252B954700B13A8A /* PessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaViewController.swift; sourceTree = "<group>"; };
 		B0A42BE3252B956B00B13A8A /* Pessoa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pessoa.storyboard; sourceTree = "<group>"; };
+		EF5E7017A830A96D8A1DCB5E /* Pessoa2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa2.swift; sourceTree = "<group>"; };
+		EF5E7140376C63AB452B3FB1 /* Pessoa67.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa67.swift; sourceTree = "<group>"; };
+		EF5E71C0C0791CA7255570CB /* Pesso1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pesso1.swift; sourceTree = "<group>"; };
+		EF5E7294C259D7C7AD4EE22D /* Pesso3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pesso3.swift; sourceTree = "<group>"; };
+		EF5E7591CA103BDDA85B40AA /* PessoaVViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PessoaVViewConroller.swift; sourceTree = "<group>"; };
+		EF5E7E5CB3A6C61A24B96D76 /* Pessoa4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 				B0A42BC1252B853800B13A8A /* Assets.xcassets */,
 				B0A42BC3252B853800B13A8A /* LaunchScreen.storyboard */,
 				B0A42BC6252B853800B13A8A /* Info.plist */,
+				EF5E7E5CB3A6C61A24B96D76 /* Pessoa4.swift */,
 			);
 			path = Exercicio_TableView_001;
 			sourceTree = "<group>";
@@ -84,6 +97,11 @@
 				B0A42BD6252B86D300B13A8A /* PessoaViewCell.swift */,
 				B0A42BE0252B954700B13A8A /* PessoaViewController.swift */,
 				B0A42BE3252B956B00B13A8A /* Pessoa.storyboard */,
+				EF5E71C0C0791CA7255570CB /* Pesso1.swift */,
+				EF5E7017A830A96D8A1DCB5E /* Pessoa2.swift */,
+				EF5E7294C259D7C7AD4EE22D /* Pesso3.swift */,
+				EF5E7140376C63AB452B3FB1 /* Pessoa67.swift */,
+				EF5E7591CA103BDDA85B40AA /* PessoaVViewConroller.swift */,
 			);
 			path = Pessoa;
 			sourceTree = "<group>";
@@ -172,6 +190,12 @@
 				B0A42BD7252B86D300B13A8A /* PessoaViewCell.swift in Sources */,
 				B0A42BBB252B853400B13A8A /* SceneDelegate.swift in Sources */,
 				B0A42BE1252B954700B13A8A /* PessoaViewController.swift in Sources */,
+				EF5E7CB869EC066D71256B57 /* Pesso1.swift in Sources */,
+				EF5E7145BB258C8AEABD71E6 /* Pessoa2.swift in Sources */,
+				EF5E7050EEB45EAFCD76EDDD /* Pesso3.swift in Sources */,
+				EF5E7B2ADF609737ADFFD0B9 /* Pessoa4.swift in Sources */,
+				EF5E7A9993C19441C8D13019 /* Pessoa67.swift in Sources */,
+				EF5E7778C078721C6556AB52 /* PessoaVViewConroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,10 +27,20 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate
 {
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        <#code#>
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let viewControler = AnimalDetailViewController.getViewController() {
             viewControler.animal = animalArray[indexPath.row]
             present(viewControler, animated: true, completion: nil)
+            
+            navigationController?.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
         }
     }
     

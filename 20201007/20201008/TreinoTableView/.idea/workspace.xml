@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b012a2a-86ba-4006-9f0a-29a07d911bd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/Pesso1.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/Pesso3.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/Pessoa2.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/Pessoa67.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/PessoaVViewConroller.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa4.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20201007.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/TreinoTableView.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView.xcodeproj/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Developer.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/People/People.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/People/People.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/People/PeopleTableViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/People/PeopleViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/Pessoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreinoTableView/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SegmentControll/.idea/SegmentControll.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SegmentControll/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SegmentControll/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SegmentControll/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SegmentControll/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SegmentControll/SegmentControll.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/ColectionView_Exercicio003/Exercicio_CollectionView_003/Exercicio_CollectionView_003/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002/Animal/AnimalCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002/Animal/AnimalCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002/Animal/AnimalDetailewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002/Animal/AnimalDetailewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableViewExercicio002/TableViewExercicio002/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/PessoaViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20200930/TableView_Exercicio001/Exercicio_TableView_001/Exercicio_TableView_001/Pessoa/PessoaViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegmentControll/SegmentControll.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegmentControll/SegmentControll.xcodeproj/project.xcworkspace/xcuserdata/marcelosquarisi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_A6090DA5-C92D-4440-9C66-1E602433EB91" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TableViewCell" />
+        <option value="ViewControler" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1ibvMqZHtAADzdW0u4zmIV0kpJR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Swift" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TreinoTableView" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TreinoTableView" TARGET_NAME="TreinoTableView" CONFIG_NAME="Debug" SCHEME_NAME="TreinoTableView" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="TreinoTableView" RUN_TARGET_NAME="TreinoTableView" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b012a2a-86ba-4006-9f0a-29a07d911bd8" name="Default Changelist" comment="" />
+      <created>1602189060717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602189060717</updated>
+      <workItem from="1602189062048" duration="242000" />
+      <workItem from="1602189336313" duration="83000" />
+      <workItem from="1602189515749" duration="105000" />
+      <workItem from="1602189661028" duration="4216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1602191053745">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="533" y="154" key="#com.intellij.ide.util.MemberChooser/0.23.1440.816@0.23.1440.816" timestamp="1602191053745" />
+    <state x="458" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602192756216">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="458" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1602192756216" />
+    <state x="235" y="97" key="FileDocumentManager.FileCacheConflict" timestamp="1602190960448">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="235" y="97" key="FileDocumentManager.FileCacheConflict/0.23.1440.816@0.23.1440.816" timestamp="1602190960448" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1602240197627">
+      <screen x="0" y="23" width="2560" height="977" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1602192483894" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.2560.977@0.23.2560.977" timestamp="1602240197627" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1602240197626">
+      <screen x="0" y="23" width="2560" height="977" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1602192483893" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.2560.977@0.23.2560.977" timestamp="1602240197626" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1602240197625">
+      <screen x="0" y="23" width="2560" height="977" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1602192483892" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.2560.977@0.23.2560.977" timestamp="1602240197625" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1602240197627">
+      <screen x="0" y="23" width="2560" height="977" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1602192483893" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.2560.977@0.23.2560.977" timestamp="1602240197627" />
+    <state x="221" y="70" width="1063" height="722" key="SettingsEditor" timestamp="1602193130391">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="221" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1602191862970" />
+    <state x="221" y="70" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1602190478893" />
+    <state x="221" y="70" width="1063" height="722" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1602193130391" />
+  </component>
+</project>

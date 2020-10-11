@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReservaDeHotel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data check-in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgQ-hI-k8h">
+                                <rect key="frame" x="5" y="72" width="404" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="4K9-ns-XYo">
+                                <rect key="frame" x="0.0" y="111" width="414" height="216"/>
+                                <connections>
+                                    <action selector="actionChekinDateSelectec:" destination="BYZ-38-t0r" eventType="valueChanged" id="5Ez-f5-chB"/>
+                                </connections>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="heb-My-byB">
+                                <rect key="frame" x="0.0" y="384" width="414" height="216"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data check-out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBj-bE-iDS">
+                                <rect key="frame" x="0.0" y="345" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BfV-dI-aMm">
+                                <rect key="frame" x="184" y="657" width="51" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwk-GS-oH9">
+                                <rect key="frame" x="150" y="706" width="114" height="30"/>
+                                <state key="normal" title="Busca hotel"/>
+                                <connections>
+                                    <action selector="buttonBuscaHotel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZzH-Pw-Bnc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0N-Ls-bXA">
+                                <rect key="frame" x="31" y="745" width="349" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWO-FS-a89">
+                                <rect key="frame" x="31" y="793" width="349" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fidelizado?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW7-Df-7XR">
+                                <rect key="frame" x="0.0" y="618" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4K9-ns-XYo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="217-9b-9L2"/>
+                            <constraint firstItem="BfV-dI-aMm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="2hf-wn-Jae"/>
+                            <constraint firstItem="YW7-Df-7XR" firstAttribute="top" secondItem="heb-My-byB" secondAttribute="bottom" constant="18" id="8gg-Ri-FAa"/>
+                            <constraint firstItem="heb-My-byB" firstAttribute="top" secondItem="tBj-bE-iDS" secondAttribute="bottom" constant="18" id="BOs-kc-FVH"/>
+                            <constraint firstItem="4K9-ns-XYo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="G9o-DY-jHa"/>
+                            <constraint firstItem="Jwk-GS-oH9" firstAttribute="top" secondItem="BfV-dI-aMm" secondAttribute="bottom" constant="18" id="H1n-xf-eZH"/>
+                            <constraint firstItem="lgQ-hI-k8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="L1n-JJ-hxd"/>
+                            <constraint firstItem="tBj-bE-iDS" firstAttribute="top" secondItem="4K9-ns-XYo" secondAttribute="bottom" constant="18" id="MNp-9X-gnO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tBj-bE-iDS" secondAttribute="trailing" id="MW4-h5-gww"/>
+                            <constraint firstItem="tBj-bE-iDS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Mkz-N8-5UK"/>
+                            <constraint firstItem="BfV-dI-aMm" firstAttribute="top" secondItem="YW7-Df-7XR" secondAttribute="bottom" constant="18" id="N50-3s-fk6"/>
+                            <constraint firstItem="lgQ-hI-k8h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="QFE-bp-cbp"/>
+                            <constraint firstItem="Jwk-GS-oH9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="VfJ-JI-lKp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YW7-Df-7XR" secondAttribute="trailing" id="YbY-Ia-pyB"/>
+                            <constraint firstItem="heb-My-byB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="e98-sF-Ui6"/>
+                            <constraint firstItem="4K9-ns-XYo" firstAttribute="top" secondItem="lgQ-hI-k8h" secondAttribute="bottom" constant="18" id="fhz-M5-TXz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lgQ-hI-k8h" secondAttribute="trailing" constant="5" id="gRL-GT-AjL"/>
+                            <constraint firstItem="YW7-Df-7XR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nYx-NS-p4m"/>
+                            <constraint firstItem="Jwk-GS-oH9" firstAttribute="top" secondItem="BfV-dI-aMm" secondAttribute="bottom" constant="18" id="oF8-8X-0gv"/>
+                            <constraint firstItem="heb-My-byB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oRI-0Z-kHr"/>
+                            <constraint firstItem="BfV-dI-aMm" firstAttribute="top" secondItem="YW7-Df-7XR" secondAttribute="bottom" constant="18" id="ura-ch-Nwr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jwk-GS-oH9" secondAttribute="trailing" constant="150" id="yde-0l-eOs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="darePickerCheckOut" destination="heb-My-byB" id="5QV-M3-Y6W"/>
+                        <outlet property="datePickerCheckIn" destination="4K9-ns-XYo" id="Ftk-JM-Lc5"/>
+                        <outlet property="labelMelhorHotel" destination="E0N-Ls-bXA" id="hQy-MW-xwg"/>
+                        <outlet property="labelTotalFee" destination="iWO-FS-a89" id="TrT-Lt-7YP"/>
+                        <outlet property="switchFidelity" destination="BfV-dI-aMm" id="Iz9-Uv-C9z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -35,6 +35,8 @@ class AnimalDetailViewController: UIViewController {
 
     private func closeView(){
         dismiss(animated: true, completion: nil)
+        
+        navigationController?.popViewController(animated: true)
     }
   
 }
