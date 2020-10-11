@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0A42BB4252B853400B13A8A"
+               BuildableName = "Exercicio_TableView_001.app"
+               BlueprintName = "Exercicio_TableView_001"
+               ReferencedContainer = "container:Exercicio_TableView_001.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B0A42BB4252B853400B13A8A"
+            BuildableName = "Exercicio_TableView_001.app"
+            BlueprintName = "Exercicio_TableView_001"
+            ReferencedContainer = "container:Exercicio_TableView_001.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

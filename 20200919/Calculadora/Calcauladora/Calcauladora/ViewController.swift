@@ -29,6 +29,12 @@ class ViewController: UIViewController {
     }
     
     
+    
+    @IBAction func actionAC(_ sender: Any) {
+        calculadora.setAc()
+        ResultLabel.text = "0"
+    }
+    
     @IBAction func OperationClicked(_ sender: CalcButton) {
         isOperating = true
         if let valueText = ResultLabel.text {
@@ -38,11 +44,10 @@ class ViewController: UIViewController {
                     calculadora.ReceiveOperationAndValue(value: value, operation: .soma)
                 default:
                     calculadora.ReceiveOperationAndValue(value: value, operation:.igual)
-          
-        
-        ResultLabel.text = String (calculadora.GetResultado())
-            
-            }
+                    
+                }
+                
+                ResultLabel.text = String (calculadora.GetResultado())
             }
         }
     }
